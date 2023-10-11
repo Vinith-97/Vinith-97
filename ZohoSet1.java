@@ -1,3 +1,41 @@
+/*1. Print the word with odd letters as
+	P         M
+	 R      A
+	   O  R
+	     G
+	  O    R
+	 R       A
+	P          M 
+ 
+2. Given a set of numbers like <10, 36, 54,89,12> we want to find sum of weights based on the following conditions
+    1. 5 If a perfect square
+    2. 4 if multiple of 4 and divisible by 6
+    3. 3 if even number
+Sort the numbers based on the weight and print it
+
+3. Save the string “WELCOMETOZOHOCORPORATION” in a two-dimensional array and search for a substring like “too” in the two-dimensional string both from left to right and from top to bottom.
+
+w	e	L	C	O
+M	E	T	O	Z
+O	H	O	C	O
+R	P	O	R	A
+T	I	O	n	  
+Print the start and ending indexes as
+Start index: <1,2>
+End index: <3, 2>
+
+4. Given a 9×9 sudoku we have to evaluate it for its correctness. We have to check both the sub-matrix correctness 
+and the whole sudoku correctness.
+
+5. Given a two dimensional array of string like
+  <”luke”, “shaw”>
+  <”wayne”, “rooney”>
+  <”rooney”, “ronaldo”>
+  <”shaw”, “rooney”> 
+Where the first string is “child”, second string is “Father”. 
+And given “ronaldo” we have to find his no of grandchildren Here “ronaldo” has 2 grandchildren. So our output should be 2.
+*/
+
 import java.util.*;
 public class ZohoSet1 {
 
