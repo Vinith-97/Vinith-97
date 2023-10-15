@@ -1,3 +1,33 @@
+/*
+Question 1: Given two sorted arrays output a merged array without duplicates.
+Array1: [1, 2, 3, 6, 9]
+Array2: [2, 4, 5, 10]
+Merged Array: [1, 2, 3, 4, 5, 6, 9, 10]
+
+Question 2: Given a sliding window of size k print the maximum of the numbers under the sliding window.
+Example: Consider a sliding window of size k equals 3. Let the array be [3,2,7,6,5,1,2,3,4] the output should print 7 as the first output as first window contains {3,2,7} and second window contains {2,7,6} and so on and the final output is {7,7,7,6,5,3,4}
+
+Question 3: Given a array with n elements print the number of occurrences of that number each number in that array. The order of number doesn’t matter. You can reorder the elements.
+Example : [2,1,3,2,2,5,8,9,8]
+Output:
+2-3
+1-1
+3-1
+5-1
+8-2
+9-1
+
+Question 4: Enter two strings from command line and check whether any substring present in first string that follows the pattern of second sting.. They asked to implement  regular expressions for * and backslash without built in functions.
+“abcd” “a*cd” answer : yes
+“aaaa” “a*”  answer : yes
+“a*c” “a\*c” answer:yes
+“adsd” “ad” answer:no
+
+Question 5: They gave a passage and the output should be printing out the number of occurrence of each word and the indices it occurs without using string matching
+The passage given was “jana Gana Mana” and so on.. and we have to print number of jana and it’s indices.i.e at which position it occurs.
+I have completed first and 5th program. The programs were not of equal weight-age. 4th and 5th were given more weight-age. They gave importance with the way of approach. Another guy solved the first 4 programs but he is not selected because of his inefficient code. And I got selected to the next round just because of the appropriate data structure and logic the applied.
+*/
+
 import java.util.*;
 
 public class ZohoSet10 {
